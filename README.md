@@ -1,5 +1,16 @@
 ### Graded Assignment: Flexbox Mastery
 
+**Reminder: Create a repo (GitHub + local)**
+
+- **On GitHub:** Sign in → "+" → "New repository" → Name it (e.g. `css_flexbox_assignment`) → Leave "Add a README file" **unchecked** → Create repository.
+- **In the terminal (locally):**
+  1. `mkdir project-name` then `cd project-name`
+  2. `git init`
+  3. Create your files, then: `git add .` → `git commit -m "Initial commit"`
+  4. `git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git`
+  5. `git branch -M main` (if needed)
+  6. `git push -u origin main`
+
 **Assignment Overview:**
 Create a responsive website layout using only Flexbox. This assignment tests your understanding of flex containers, flex items, alignment, and responsive design.
 
