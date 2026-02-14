@@ -11,28 +11,25 @@
   5. `git branch -M main` (if needed)
   6. `git push -u origin main`
 
-**Assignment Overview:**
-Create a responsive website layout using only Flexbox. This assignment tests your understanding of flex containers, flex items, alignment, and responsive design.
+**What this assignment is for:** You show that you can build a layout using only what you learned in Lessons 5.1–5.3 (flex containers, flex items, alignment, flex-wrap). You do **not** need media queries (those are in Module 8).
 
 **Requirements:**
-1. Create a complete page layout with header, main content area, sidebar, and footer
-2. Use flexbox for all layout (no floats, no absolute positioning for layout)
-3. Make the layout responsive—sidebar should stack below main content on mobile
-4. Navigation bar should use flexbox with proper spacing
-5. Include a card grid section with at least 6 cards that wrap responsively
-6. Footer should stick to bottom even with little content
-7. Center a hero section both horizontally and vertically
-8. Use flex properties to control item sizing appropriately
+1. Create a page layout with header, main content area, sidebar, and footer using **only flexbox** for layout (no floats, no positioning for layout).
+2. Use `display: flex`, `flex-direction`, and `flex-wrap` so that when the container is narrow, items can wrap (e.g. sidebar and main stack).
+3. Navigation bar: use flexbox with spacing (e.g. `justify-content`, `gap`).
+4. Include a section with at least 6 cards that use flexbox and `flex-wrap` so cards wrap when space is limited.
+5. Use flex so the footer stays at the bottom when content is short (e.g. `flex: 1` on main).
+6. Center a hero section horizontally and vertically using `justify-content` and `align-items`.
+7. Use flex properties (e.g. `flex`, `flex-grow`) to control item sizing where appropriate.
 
 **Deliverables:**
-- HTML file with semantic structure
-- CSS file demonstrating flexbox techniques
-- Working responsive layout
-- Code comments explaining your flexbox choices
+- HTML file with clear structure
+- CSS file that uses only flexbox for layout (and styles from earlier modules)
+- Code comments that explain your flexbox choices
 
 **Grading Criteria:**
-- Proper use of flexbox properties (30%)
-- Responsive behavior and wrapping (25%)
+- Correct use of flexbox properties from this module (30%)
+- Use of flex-wrap and alignment (25%)
 - Code organization and comments (20%)
-- Visual design and spacing (15%)
-- Creativity and implementation quality (10%)
+- Layout and spacing (15%)
+- Completeness and clarity (10%)
